@@ -1,0 +1,132 @@
+{
+  "users": [
+    {
+      "username": "suka@mail.ru",
+      "password": "123456",
+      "born": "02/02/2021",
+      "id": 1
+    },
+    {
+      "username": "kuta@mail.ru",
+      "password": "123456",
+      "born": "25/02/2001",
+      "id": 2
+    },
+    {
+      "username": "kuku@gmail.com",
+      "password": "kukukuku",
+      "born": "19/02/2021",
+      "id": 3
+    },
+    {
+      "username": "chiko1@mail.ru",
+      "password": "123456",
+      "born": "25/02/2001",
+      "id": 4
+    },
+    {
+      "username": "k@mail.ru",
+      "password": "ku123456",
+      "born": "09/03/2021",
+      "id": 5
+    }
+  ],
+  "bases": [
+    {
+      "name": "ანა",
+      "lastName": "ანანიძე",
+      "country": "ავსტრია",
+      "city": "ამსტერდამი",
+      "animal": "ანაკონდა",
+      "plant": "ატამი"
+    },
+    {
+      "name": "ბაჩო",
+      "lastName": "ბუაძე",
+      "country": "ბულგარეთი",
+      "city": "ბათუმი",
+      "animal": "ბაყაყი",
+      "plant": "ბალი"
+    },
+    {
+      "name": "გიო",
+      "lastName": "გოშაძე",
+      "country": "განა",
+      "city": "გორი",
+      "animal": "გორილა",
+      "plant": "გარგარი"
+    },
+    {
+      "name": "დათო",
+      "lastName": "დავითაშვილი",
+      "country": "დანია",
+      "city": "დუბაი",
+      "animal": "დათვი",
+      "plant": "დაფნა"
+    },
+    {
+      "name": "ეკა",
+      "lastName": "ესაძე",
+      "country": "ესტონეტი",
+      "city": "ერევანი",
+      "animal": "ენოტი",
+      "plant": "ენძელა"
+    },
+    {
+      "name": "ვატო",
+      "lastName": "ვაშაძე",
+      "country": "ვატიკანი",
+      "city": "ვენა",
+      "animal": "ვირი",
+      "plant": "ვერხვი"
+    },
+    {
+      "name": "ზურა",
+      "lastName": "ზუხბაია",
+      "country": "ზიმბაბვე",
+      "city": "ზესტაფონი",
+      "animal": "ზებრა",
+      "plant": "ზამბახი"
+    },
+    {
+      "name": "თამილა",
+      "lastName": "თალაკვაძე",
+      "country": "თურქეთი",
+      "city": "თბილისი",
+      "animal": "თაგვი",
+      "plant": "თუთა"
+    },
+    {
+      "name": "ირა",
+      "lastName": "ირემაძე",
+      "country": "ისრაელი",
+      "city": "იერუსალიმი",
+      "animal": "იადონი",
+      "plant": "ია"
+    },
+    {
+      "name": "კახა",
+      "lastName": "კალაძე",
+      "country": "კენია",
+      "city": "კანადა",
+      "animal": "კუ",
+      "plant": "კაკალი"
+    },
+    {
+      "name": "ლიზი",
+      "lastName": "ლამი",
+      "country": "ლატვია",
+      "city": "ლონდონი",
+      "animal": "ლომი",
+      "plant": "ლიმონი"
+    },
+    {
+      "name": "მანანა",
+      "lastName": "მაისურაძე",
+      "country": "მონღოლეთი",
+      "city": "მონაკო",
+      "animal": "მაიმუნი",
+      "plant": "მარყვი"
+    }
+  ]
+}

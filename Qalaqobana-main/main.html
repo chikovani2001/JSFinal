@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>QALAQOBANA</title>
+    <link rel="stylesheet" href="/css/mainPage.css">
+    <link rel="stylesheet" href="/css/timer.css">
+    
+
+</head>
+<body>
+ 
+  <h2 ><i>ქალაქობანა</i></h2>
+    <div class="mahi_holder">
+        <div class="container">
+            
+            <div class="container3"></div>
+            <div id="row"  class="row bg_1">
+            <div class="col">
+                <input  id="name" class="effect-1" type="text" placeholder="სახელი">
+                <span class="focus-border"></span>
+              </div>
+            <div class="col">
+                <input  id = "lastName" class="effect-2" type="text" placeholder="გვარი">
+                <span class="focus-border"></span>
+              </div> 
+            <div class="col">
+                <input  id="country" class="effect-3" type="text" placeholder="ქვეყანა">
+                  <span class="focus-border"></span>
+              </div>        
+            <div class="col">
+                <input  id="city" class="effect-4" type="text" placeholder="ქალაქი">
+                  <span class="focus-border"></span>
+              </div>
+            <div class="col">
+                <input  id="animal" class="effect-5" type="text" placeholder="ცხოველი">
+                  <span class="focus-border"></span>
+              </div>
+            <div class="col">
+                <input id="plant" class="effect-6" type="text" placeholder="მცენარე">
+                  <span class="focus-border"></span>
+              </div>
+            <div class="col">
+                <input readonly id="sumOf"  class="effect-6" type="text" placeholder="ჯამი">
+                  <span class="focus-border"></span>
+              </div>
+            <div class="col">
+                <button style="margin-top: 15px;" id="stop" type="button" class="btn btn-success">სტოპ</button>
+              </div>
+            <div class="col">
+                <button style="margin-top: 15px;" id="more" type="button" class="btn btn-danger">შე(მ)დეგი</button>
+              </div>  
+              
+              <div id="container1"></div>
+    </div>
+</div>                      
+      
+
+
+
+        
+        
+    </div>
+    
+    <div id="app"></div>
+    <!-- Button trigger modalButton trigger modal -->
+    <div id="modalButton">
+    <button type="button" id="startGame" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">
+      დაწყება
+    </button>
+    <button type="button" id="refreshGame" class="btn btn-danger" data-toggle="modal" style="margin-left: 5px;" data-target="#exampleModal">
+      თავიდან
+  </button>
+  <button type="button" id="remove" class="btn btn-warning" style="margin-left: 5px;" data-target="#exampleModal">
+    წაშლა
+</button>
+  
+
+    </div>
+    
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">ცეცხლი აინთო თამაში დაიწყო</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            ასო-ბგერა: <span id="demo"></span>
+        </div>
+        <div class="modal-footer">
+          <button type="button" id= "finish" class="btn btn-secondary" data-dismiss="modal" >დახურვა</button>
+          <button type="button" id = "start" class="btn btn-primary" data-dismiss="modal" >დაწყება</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="/js/timer.js"></script>
+
+  
+</body>
+</html>

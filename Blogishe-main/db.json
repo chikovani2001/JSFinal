@@ -1,0 +1,70 @@
+{
+  "navigation": {
+    "guest": [
+      {
+        "id": 1,
+        "name": "Home",
+        "idName": "home",
+        "url": "/index.html"
+      },
+      {
+        "id": 3,
+        "name": "Login",
+        "idName": "login",
+        "url": "/login.html"
+      },
+      {
+        "id": 4,
+        "name": "Registration",
+        "idName": "registration",
+        "url": "/registration.html"
+      }
+    ],
+    "user": [
+      {
+        "id": 1,
+        "name": "Home",
+        "idName": "home",
+        "url": "/index.html"
+      },
+      {
+        "id": 2,
+        "name": "Add blog",
+        "idName": "add-blog",
+        "url": "/add-post.html"
+      },
+      {
+        "id": 5,
+        "name": "Logout",
+        "idName": "logout",
+        "url": "#"
+      }
+    ]
+  },
+  "posts": [
+    {
+      "title": "ბლოგ ნეიმი",
+      "author": "chiko",
+      "content": "ას,ფნაკლფნ;კასფნპასნმფლ[ანსოფ მასნფო[ასნფანსფ;კ",
+      "image": "https://www.tosfrit.es/wp/wp-content/uploads/2016/12/slide2-background.jpg",
+      "description": "მცირე",
+      "createDate": "Thu Feb 11 2021",
+      "id": 1
+    }
+  ],
+  "comments": [],
+  "users": [
+    {
+      "fullName": "chiko",
+      "username": "chiko",
+      "password": "123456",
+      "id": 2
+    },
+    {
+      "fullName": "nona",
+      "username": "nona",
+      "password": "123456",
+      "id": 3
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+.navbar .navbar-light{
+    background-color: #fff;
+}
+.navbar-nav{
+    margin-left: 700px;
+}
+.logo{
+    width: 100px;
+    height: 80px;
+    margin-left: 100px;
+}
+.navbar-light .navbar-nav .nav-link {
+    padding: 10px;
+    color: #ef5f60;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    opacity: 0.85;
+}
+.intro{
+    display: block;
+    height: 208px;
+    width: 100%;
+    background-color:#f1f4f5;
+}
+.container__content{
+    margin: 0 auto;
+    width: 1196px;
+}
+.container{
+    width: 100%;
+}
+
+.intro__content{
+    font-size: 10px;
+    padding: 60px;
+}
+.intro__content__title{
+    font-size: 2em;
+    font-family: ALKDots;
+}
+.intro__content__sub-title{
+    margin: 10px auto;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.portfolio{
+    display: block;
+    height: 1141px;
+    margin-top: 62px;
+}
+.portfolio__title{
+    font-size: 16px;
+}
+.portfolio__items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.portfolio__items_item{
+    cursor: pointer;
+    margin-bottom: 25px;
+    height: 303px;
+    width: 382px;
+    background-color: #E5E5E5;
+    display: block;
+    position: relative;
+    background-repeat: no-repeat;
+    background-image:url("https://www.boyac.com.au/wp-content/uploads/2016/02/suichuka-822x1000.jpg") ;
+}
+
+.portfolio__items_item:after{
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+    content: "";
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+}
+#button1{
+    margin-bottom: 10px;
+}
+.portfolio__items_item__title{
+    color: white;
+    z-index: 2;
+    position: absolute;
+    top: 110px;
+    width: 100%;
+    text-align: center;
+    font-size: 22px;
+}
+.portfolio__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.portfolio__items_item:hover::after
+{
+    visibility: visible;
+}
+.portfolio__contact{
+    width: 100%;
+    text-align: center;
+}
+button{
+    cursor: pointer;
+    background-color: #ef5f60;
+    border: 0;
+    padding: 12px;
+    color: white;
+    border-radius: 5px;
+}
+button:hover{
+    opacity: 0.85;
+}
+.photo{
+    margin-top: 50px;
+    margin-left: 80px;
+}
+.photos{
+    margin-right: 100px;
+    border-radius: 100px;
+}
+.box_relative{
+    font-size: 10px;
+    margin-left: 90px;
+    width: 200px;
+    height: 100px;
+}
+.box_relative2{
+    margin-top: -100px;
+    font-size: 10px;
+    margin-left: 410px;
+    width: 200px;
+    height: 100px;
+}
+.box_relative3{
+    margin-top: -100px;
+    font-size: 10px;
+    margin-left: 730px;
+    width: 200px;
+    height: 100px;
+}
+.box_relative4{
+    margin-top: -100px;
+    font-size: 10px;
+    margin-left: 1050px;
+    width: 200px;
+    height: 100px;
+}
+.headers {
+    margin-left: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#card1{
+    margin-left: 80px;
+    border: none;
+    margin-top: 90px;
+}
+#card2{
+    margin-left: 700px;
+    border: none;
+    margin-top: -260px;
+}
+#card3{
+    margin-left: 80px;
+    border: none;
+}
+#card4{
+    margin-top: -255px;
+    margin-left: 700px;
+    border: none;
+}
+
+.bottom{
+    margin-top: 30px;
+    height: 208px;
+    width: 100%;
+    background-color: #2D2D30;
+}
+.bottom_text{
+    margin-top: 80px;
+    color: white;
+}
+.bottom_icons{
+    padding: 5px;
+    margin-top: 30px;
+    display: inline-block;
+}
+.bottom_icons_position{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.bottom_text_position{
+    justify-content: center;
+    display: flex;
+}
